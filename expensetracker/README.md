@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# XExpanseTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend Assignment Expense Tracker
 
-## Available Scripts
+Introduction
 
-In the project directory, you can run:
+Create a web application for tracking expenses, allowing users to add, edit, and delete expenses based on category and date, as well as view a summary of their expenses.
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Should have a Wallet Balance which by default is set to 5000.
+Wallet Balance can be increased.
+User should not be able to spend more than his available wallet balance. Show an alert if a user tries to do so.
+Add new expenses with details like title, amount, category, and date.
+Wallet Balance should update accordingly.
+Edit existing expenses.
+Delete expenses.
+View a summary of total expenses, categorized by date or type.
+Persist wallet balance and list of expenses in localStorage so that it should be there upon page refresh.
+Responsive design for various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Functional Requirements
 
-### `npm test`
+3.1 Add Expense Form
+Provide fields for title, amount, and date, with validation for required fields.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.2 Add Income Form
+Provide a field for adding balance in the wallet.
 
-### `npm run build`
+3.3 Expense List
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Display a list of expenses with options to edit or delete each expense.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.4 Expense Summary
+Show a summary of total expenses in a pie chart.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.5 Expense Trends
+Show a bar chart that shows the trending spends based on category.
 
-### `npm run eject`
+3.6 Edit/Delete
+Allow users to edit or delete expenses.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.7 Responsive Design:
+Ensure the application is usable on different devices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Frontend: React.JS, HTML, CSS, JavaScript.
+You can use third party libraries for charts (preferably recharts), modals (react-modal), notistack for alerts and react-icons for icons.
+You should do it using plain CSS and shouldn’t use any third party library for CSS styling.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Figma
 
-## Learn More
+Figma Link (https://www.figma.com/file/yHps1cSScYurYlrtnHmQMN/Crio-Takehome---Expense-Tracker?type=design&node-id=2%3A5&mode=design&t=4vF4yvSzzc2fq6Z1-1)
+Prototype (for reference) (https://www.figma.com/proto/yHps1cSScYurYlrtnHmQMN/Crio-Takehome---Expense-Tracker?type=design&node-id=2-6&t=f21zpQNA6iD7q7Ha-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A6)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Additional Pointers
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use reusable components for UI elements.
+Ensure code quality, readability, and consistency.
+Design should align with the provided fonts and color scheme.
 
-### Code Splitting
+Handling the Assignment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Time to complete the assignment: 2 Days.
+Submit your solution by creating a GitHub repository and pushing your code there to have proper commit messages.
+Deployed Vercel link.
+Add a Readme.md file with the project details
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Resources for this take-home:
+Local setup + Deployment instructions
+Template for doing take home - Make a copy for yourself
+Recharts for making Charts (feel free to use any other library)
+React-modal for making modals (feel free to use any other library)
+Notistack for alerts
+React-icons for icons
